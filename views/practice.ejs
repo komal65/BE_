@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+
+  <title>Mahavir motors|Home</title>
+
+  <link rel="stylesheet" href="../stylesheets/maicons.css">
+
+  <link rel="stylesheet" href="../stylesheets/bootstrap.css">
+
+  <link rel="stylesheet" href="../vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../stylesheets/theme.css">
+
+<link rel="stylesheet" href="../stylesheets/carcard.css">
+<link rel="stylesheet" href="../stylesheets/register.css">
+</head>
+<body>
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+      <div class="container">
+        <a href="#" class="navbar-brand"><b>Vani</b> <span class="text-primary"> Unnati.</span></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/service">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/Car">Dealer</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/showcar">catalogue</a>
+            </li>
+
+            
+            
+            <li class="nav-item">
+              <a class="btn btn-primary ml-lg-2" href="/register">Registe Here</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <br><br><br>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4" style="min-height: 100vh;width: 100%;">
+        <div class="card-header bg-danger text-white">
+          <h3 class="mb-0">हिंदी अक्षर सीखें!</h3>
+          <p class="mb-0">Master Hindi Letters Pronunciation</p>
+        </div>
+        <div class="card-body">
+          <!-- Navigation buttons -->
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <button class="btn btn-primary w-100" onclick="showSection('alphabet')">Alphabets</button>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-primary w-100" onclick="showSection('words')">Words</button>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-primary w-100" onclick="showSection('sentences')">Sentences</button>
+            </div>
+          </div>
+
+          <!-- Alphabets Section -->
+          <div id="alphabet-section">
+            <h4 class="mb-3">व्यंजन (Consonants)</h4>
+            <div class="row g-2 mb-4">
+              <div class="col"><button onclick="playSound('ka')" class="btn btn-danger w-100" data-sound="ka">क</button></div>
+              <div class="col"><button onclick="playSound('kha')" class="btn btn-danger w-100" data-sound="kha">ख</button></div>
+              <div class="col"><button onclick="playSound('ga')" class="btn btn-danger w-100" data-sound="ga">ग</button></div>
+              <div class="col"><button onclick="playSound('gha')" class="btn btn-danger w-100" data-sound="gha">घ</button></div>
+              <div class="col"><button onclick="playSound('nga')" class="btn btn-danger w-100" data-sound="nga">ङ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('cha')">च</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('chha')">छ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ja')">ज</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('jha')">झ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('nya')">ञ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ta')">ट</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('tha')">ठ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('da')">ड</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('dha')">ढ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('na')">ण</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ta2')">त</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('tha2')">थ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('da2')">द</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('dha2')">ध</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('na2')">न</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('pa')">प</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('pha')">फ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ba')">ब</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('bha')">भ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ma')">म</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ya')">य</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ra')">र</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('la')">ल</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('va')">व</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sha')">श</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sha2')">ष</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sa')">स</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ha')">ह</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ksha')">क्ष</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('tra')">त्र</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('gya')">ज्ञ</button></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+
+            <h4 class="mb-3">स्वर (Vowels)</h4>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('a')">अ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('aa')">आ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('i')">इ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ii')">ई</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('u')">उ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('uu')">ऊ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ri')">ऋ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('e')">ए</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ai')">ऐ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('o')">ओ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('au')">औ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('am')">अं</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ah')">अः</button></div>
+              <div class="col"></div>
+              <div class="col"></div>
+            </div>
+
+            <!-- Audio elements for each sound -->
+            <audio id="ka" src="/sounds/ka.mp3"></audio>
+            <audio id="kha" src="/sounds/kha.mp3"></audio>
+            <!-- Add similar audio elements for all other letters -->
+
+            <script>
+            function playSound(letter) {
+              const audio = new Audio(`/audio/${letter}.mp3`);
+              audio.play().catch(error => {
+                console.error('Error playing sound:', error);
+                alert('Sound file not found or audio playback failed');
+              });
+            }
+
+            // Add hover effect for buttons
+            document.querySelectorAll('.btn').forEach(button => {
+              button.addEventListener('mouseover', function() {
+                this.style.transform = 'scale(1.1)';
+                this.style.transition = 'transform 0.2s';
+              });
+              
+              button.addEventListener('mouseout', function() {
+                this.style.transform = 'scale(1)';
+              });
+            });
+            </script>
+          </div>
+
+          <!-- Words Section -->
+          <div id="words-section" style="display: none;">
+            <h4 class="mb-3">शब्द (Words)</h4>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('kamal')">कमल</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('naman')">नमन</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('madhu')">मधु</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('phal')">फल</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('jal')">जल</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ghar')">घर</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('path')">पथ</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('rath')">रथ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('nagar')">नगर</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('kalam')">कलम</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('bas')">बस</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('chal')">चल</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('man')">मन</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('dhan')">धन</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('van')">वन</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('tan')">तन</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sar')">सर</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('kar')">कर</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('pal')">पल</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('bal')">बल</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('ras')">रस</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('dal')">दल</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('khag')">खग</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('nabh')">नभ</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('kshama')">क्षमा</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('shram')">श्रम</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('swar')">स्वर</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('trast')">त्रस्त</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sthan')">स्थान</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('prashn')">प्रश्न</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('dwar')">द्वार</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('gyan')">ज्ञान</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('shringar')">श्रृंगार</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('sphatik')">स्फटिक</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('kshitij')">क्षितिज</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('vyaghr')">व्याघ्र</button></div>
+            </div>
+            <div class="row g-3 mb-4">
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('pragya')">प्रज्ञा</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('drashta')">द्रष्टा</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('smriti')">स्मृति</button></div>
+              <div class="col"><button class="btn btn-danger w-100 py-3 fs-4" onclick="playSound('shmashan')">श्मशान</button></div>
+            </div>
+          </div>
+
+          <!-- Sentences Section -->
+          <div id="sentences-section" style="display: none;">
+            <h4 class="mb-3">वाक्य (Sentences)</h4>
+            <div class="row g-3">
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('kshatriya-kshama-karte-hain')">क्षत्रिय क्षमा करते हैं।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('shrimati-shrivastav-shringar-karti-hain')">श्रीमती श्रीवास्तव श्रृंगार करती हैं।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('gyani-vyakti-vigyan-padhate-hain')">ज्ञानी व्यक्ति विज्ञान पढ़ाते हैं।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('swachhta-se-swasthya-achha-rahta-hai')">स्वच्छता से स्वास्थ्य अच्छा रहता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('pragya-pratigya-karti-hai')">प्रज्ञा प्रतिज्ञा करती है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('kshitij-par-surya-drishtigochar-hota-hai')">क्षितिज पर सूर्य दृष्टिगोचर होता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('drashta-drishya-dekhta-hai')">द्रष्टा दृश्य देखता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('trishul-tridev-ka-prateek-hai')">त्रिशूल त्रिदेव का प्रतीक है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('sphatik-swachh-hota-hai')">स्फटिक स्वच्छ होता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('vyaghr-van-mein-vyapt-hai')">व्याघ्र वन में व्याप्त है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('brahman-brahm-ka-gyan-dete-hain')">ब्राह्मण ब्रह्म का ज्ञान देते हैं।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('krantikari-krodhit-ho-gaye')">क्रांतिकारी क्रोधित हो गए।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('smriti-smaran-karti-hai')">स्मृति स्मरण करती है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('pranayam-pran-ko-niyantrit-karta-hai')">प्राणायाम प्राण को नियंत्रित करता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('dwarpal-dwar-par-khada-hai')">द्वारपाल द्वार पर खड़ा है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('jwalamukhi-jwala-failata-hai')">ज्वालामुखी ज्वाला फैलाता है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('shmashan-mein-shanti-hai')">श्मशान में शांति है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('stri-snan-karti-hai')">स्त्री स्नान करती है।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('kshudha-se-ksheen-ho-gaya')">क्षुधा से क्षीण हो गया।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('shramik-shram-karte-hain')">श्रमिक श्रम करते हैं।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('sthan-par-sthir-raho')">स्थान पर स्थिर रहो।</button></div>
+              <div class="col-md-6"><button class="btn btn-danger w-100 py-3 fs-4 mb-2" onclick="playSound('prashn-puchhne-ki-prakriya')">प्रश्न पूछने की प्रक्रिया।</button></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showSection(sectionName) {
+  // Hide all sections first
+  document.getElementById('alphabet-section').style.display = 'none';
+  document.getElementById('words-section').style.display = 'none';
+  document.getElementById('sentences-section').style.display = 'none';
+  
+  // Show the selected section
+  document.getElementById(sectionName + '-section').style.display = 'block';
+}
+
+// Show alphabet section by default
+window.onload = function() {
+  showSection('alphabet');
+}
+</script>
+
+
+ 
+
+
+
+
+  
+  
+  
+
+    
+  
+  
+
+
+
+
+ 
+  
+  
+<br><br>
+
+  <footer class="page-footer bg-image" style="background-image: url(../images/world_pattern.svg);">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-3 py-3">
+          <h3>Mahavir Motors</h3>
+          <p>Preowned car shop </p>
+
+          <div class="social-media-button">
+            <a href="https://www.facebook.com/rahul.shingavi.96" target="_blank"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-whatsapp" ></span></a>
+            <a href="https://www.instagram.com/mahavir_motors29/" target="_blank"><span class="mai-logo-instagram"></span></a>
+            <a href="https://www.youtube.com/@rahulshingavi758" target="_blank"><span class="mai-logo-youtube"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-3 py-3 px-3">
+          <h5>Company</h5>
+          <ul class="footer-menu">
+            <li><a href="about">About Us</a></li>
+            <li><a href="/login">Career</a></li>
+            <li><a href="/register">Advertise</a></li>
+            <li><a href="/Car">Terms of Service</a></li>
+            <li><a href="/showcar">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 py-3">
+        
+          <h5>Contact Us</h5>
+          
+          <a href="+91 9822323411" class="footer-link">+91 9822323411</a><br>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRwPkZflHpXtTHGDVLXwbSJFCkSGMxpzfztPbrMcmmqhxmCBTBPhJhmtdtxpLHkknHsSdtFC" target="_blank" class="footer-link">  Mail-Id</a>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Address</h5>
+          
+          <p>Mahavir Motors, Opp D Prabhag karyalaya aund ravet rood near mahalar missal Rahatani pcmc pimpry chinchward</p><br> Pune, Maharashtra 411017<br>
+            
+            
+          <a href="https://www.google.com/maps/dir//Mahavir+Motors,+Opp+D+Prabhag+karyalaya+aund+ravet+rood+near+mahalar+missal+Rahatani+pcmc+pimpry+chinchward,+Pune,+Maharashtra+411017/@18.595005,73.7840018,17z/data=!4m17!1m7!3m6!1s0x3bc2c06765555555:0x17e999b755b966af!2sMahavir+Motors!8m2!3d18.595005!4d73.7840018!16s%2Fg%2F1ptx9q4gd!4m8!1m0!1m5!1m1!1s0x3bc2c06765555555:0x17e999b755b966af!2m2!1d73.7840018!2d18.595005!3e3?entry=ttu" target="_blank"><button class="btn btn-success btn-block mt-2">Location</button></a>
+        </div>
+      </div>
+
+      <p class="text-center" id="copyright">Copyright &copy; 2024. Mahavir Motors  </p>
+    </div>
+  </footer>
+
+<script src="../javascripts/jquery-3.5.1.min.js"></script>
+
+<script src="../javascripts/bootstrap.bundle.min.js"></script>
+
+<script src="../javascripts/google-maps.js"></script>
+
+<script src="../vendor/wow/wow.min.js"></script>
+
+<script src="../javascripts/theme.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
